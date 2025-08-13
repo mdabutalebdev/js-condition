@@ -78,17 +78,33 @@
 // বয়স 18–59 হলে "100 টাকা"
 // বয়স ≥ 60 হলে "70 টাকা"
 
-let myAge = -1;
+// let myAge = -1;
 
-if (myAge < 5) {
-  console.log("Free");
-} else if (myAge >= 5 && myAge <= 17) {
-  console.log("50 tk");
-} else if (myAge >= 18 && myAge <= 59) {
-  console.log("100 tk");
-} else if (myAge >= 60) {
-  console.log("70 tk");
-}else{
-    console.log("gura lagbe na bari jao");
-    
+// if (myAge < 5) {
+//   console.log("Free");
+// } else if (myAge >= 5 && myAge <= 17) {
+//   console.log("50 tk");
+// } else if (myAge >= 18 && myAge <= 59) {
+//   console.log("100 tk");
+// } else if (myAge >= 60) {
+//   console.log("70 tk");
+// }else{
+//     console.log("gura lagbe na bari jao");
+
+// }
+
+// বড় সংখ্যা বের করা
+// দুটি ভেরিয়েবল a ও b আছে।
+// কোন সংখ্যা বড় সেটা আউটপুট দেখাও।
+// যদি সমান হয় "দুটি সংখ্যা সমান" লিখো।
+
+let a = 80;
+let b = 120;
+
+if (a > b) {
+  console.log("a = " + a);
+} else if (b > a) {
+  console.log("b = " + b);
+} else {
+  console.log("2 ta songkhai soman ");
 }
