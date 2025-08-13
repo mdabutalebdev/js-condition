@@ -59,14 +59,36 @@
 // যদি শূন্যের কম হয়, "নেগেটিভ"
 // যদি শূন্য হয়, "শূন্য"
 
-let num = 0;
+// let num = 0;
 
-if (num > 0) {
-  console.log("positive");
-}else if(num<0){
-   console.log("Negitive");
-   
-}else if (num==0) {
-    console.log("ZERO");
+// if (num > 0) {
+//   console.log("positive");
+// }else if(num<0){
+//    console.log("Negitive");
+
+// }else if (num==0) {
+//     console.log("ZERO");
+
+// }
+
+// টিকিটের দাম নির্ধারণ
+// একটি ভেরিয়েবল age আছে।
+// বয়স < 5 হলে "Free"
+// বয়স 5–17 হলে "50 টাকা"
+// বয়স 18–59 হলে "100 টাকা"
+// বয়স ≥ 60 হলে "70 টাকা"
+
+let myAge = -1;
+
+if (myAge < 5) {
+  console.log("Free");
+} else if (myAge >= 5 && myAge <= 17) {
+  console.log("50 tk");
+} else if (myAge >= 18 && myAge <= 59) {
+  console.log("100 tk");
+} else if (myAge >= 60) {
+  console.log("70 tk");
+}else{
+    console.log("gura lagbe na bari jao");
     
 }
