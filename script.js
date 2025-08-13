@@ -98,13 +98,27 @@
 // কোন সংখ্যা বড় সেটা আউটপুট দেখাও।
 // যদি সমান হয় "দুটি সংখ্যা সমান" লিখো।
 
-let a = 80;
-let b = 120;
+// let a = 80;
+// let b = 120;
 
-if (a > b) {
-  console.log("a = " + a);
-} else if (b > a) {
-  console.log("b = " + b);
-} else {
-  console.log("2 ta songkhai soman ");
+// if (a > b) {
+//   console.log("a = " + a);
+// } else if (b > a) {
+//   console.log("b = " + b);
+// } else {
+//   console.log("2 ta songkhai soman ");
+// }
+
+// শিক্ষার্থী গ্রেড নির্ধারণ
+// একটি ভেরিয়েবল marks আছে (0–100)
+// 80–100: "A"
+// 70–79: "B"
+// 60–69: "C"
+// 40–59: "D"
+// 0–39: "F"
+
+let marks = -6;
+
+if (marks < 0 && marks > 100) {
+  console.log("Please enter valid number");
 }
