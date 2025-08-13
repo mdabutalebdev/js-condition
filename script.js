@@ -37,4 +37,18 @@ if (marks >= passMark) {
 
 
 
+// জোড় বা বিজোড় সংখ্যা
+// একটি ভেরিয়েবল number আছে।
+// যদি সংখ্যাটি জোড় হয়, আউটপুট "সংখ্যাটি জোড়"
+// না হলে "সংখ্যাটি বিজোড়"
 
+
+let number = 1;
+
+if (number%2==0) {
+    console.log("songkhati Even");
+    
+}else{
+    console.log("songkhati Bijor");
+    
+}
