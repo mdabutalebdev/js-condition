@@ -1,57 +1,57 @@
-// // একটি ভেরিয়েবল age আছে।
-// // যদি বয়স 18 বা তার বেশি হয়, আউটপুট দেখাবে "আপনি ভোট দিতে পারবেন"
-// // না হলে আউটপুট দেখাবে "আপনি ভোট দিতে পারবেন না"
+// একটি ভেরিয়েবল age আছে।
+// যদি বয়স 18 বা তার বেশি হয়, আউটপুট দেখাবে "আপনি ভোট দিতে পারবেন"
+// না হলে আউটপুট দেখাবে "আপনি ভোট দিতে পারবেন না"
 
-// let boys = 10;
-// const votDewarBoys = 18;
+let boys = 10;
+const votDewarBoys = 18;
 
-// if (boys >= votDewarBoys) {
-//   console.log("apni vot dite parben");
-// } else {
-//   console.log("apni akhono soto age boro hon 18 hoile vot diyen");
-// }
+if (boys >= votDewarBoys) {
+  console.log("apni vot dite parben");
+} else {
+  console.log("apni akhono soto age boro hon 18 hoile vot diyen");
+}
 
 // পাস বা ফেল
 // একটি ভেরিয়েবল marks আছে।
 // যদি নম্বর 40 বা তার বেশি হয়, আউটপুট "আপনি পাস করেছেন"
 // না হলে "আপনি ফেল করেছেন"
 
-// let marks = 10;
-// const passMark = 40;
+let markss = 10;
+const passMark = 40;
 
-// if (marks >= passMark) {
-//   console.log("Obinondhon apni pass koresen. Misty niye aisen");
-// }else{
-//     console.log("apni fail. adda bad diye kaj koren");
+if (markss >= passMark) {
+  console.log("Obinondhon apni pass koresen. Misty niye aisen");
+}else{
+    console.log("apni fail. adda bad diye kaj koren");
 
-// }
+}
 
 // জোড় বা বিজোড় সংখ্যা
 // একটি ভেরিয়েবল number আছে।
 // যদি সংখ্যাটি জোড় হয়, আউটপুট "সংখ্যাটি জোড়"
 // না হলে "সংখ্যাটি বিজোড়"
 
-// let number = 10;
+let number = 10;
 
-// if (number % 2 == 0) {
-//   console.log("songkhati Even");
-// } else {
-//   console.log("songkhati Bijor");
-// }
+if (number % 2 == 0) {
+  console.log("songkhati Even");
+} else {
+  console.log("songkhati Bijor");
+}
 
 // তাপমাত্রা পরীক্ষা
 // একটি ভেরিয়েবল temp আছে।
 // যদি তাপমাত্রা 30-এর বেশি হয়, আউটপুট "আজ গরম"
 // না হলে "আজ ঠান্ডা"
 
-// let NowTemp = 20;
-// const temp = 30;
+let NowTemp = 20;
+const temp = 30;
 
-// if (NowTemp > temp) {
-//   console.log("oh my god.ajke ato hot keno");
-// } else {
-//   console.log("oh no sei thanda");
-// }
+if (NowTemp > temp) {
+  console.log("oh my god.ajke ato hot keno");
+} else {
+  console.log("oh no sei thanda");
+}
 
 // পজিটিভ / নেগেটিভ / শূন্য
 // একটি ভেরিয়েবল num আছে।
@@ -59,17 +59,17 @@
 // যদি শূন্যের কম হয়, "নেগেটিভ"
 // যদি শূন্য হয়, "শূন্য"
 
-// let num = 0;
+let num = 0;
 
-// if (num > 0) {
-//   console.log("positive");
-// }else if(num<0){
-//    console.log("Negitive");
+if (num > 0) {
+  console.log("positive");
+}else if(num<0){
+   console.log("Negitive");
 
-// }else if (num==0) {
-//     console.log("ZERO");
+}else if (num==0) {
+    console.log("ZERO");
 
-// }
+}
 
 // টিকিটের দাম নির্ধারণ
 // একটি ভেরিয়েবল age আছে।
@@ -78,36 +78,36 @@
 // বয়স 18–59 হলে "100 টাকা"
 // বয়স ≥ 60 হলে "70 টাকা"
 
-// let myAge = -1;
+let myAge = -1;
 
-// if (myAge < 5) {
-//   console.log("Free");
-// } else if (myAge >= 5 && myAge <= 17) {
-//   console.log("50 tk");
-// } else if (myAge >= 18 && myAge <= 59) {
-//   console.log("100 tk");
-// } else if (myAge >= 60) {
-//   console.log("70 tk");
-// }else{
-//     console.log("gura lagbe na bari jao");
+if (myAge < 5) {
+  console.log("Free");
+} else if (myAge >= 5 && myAge <= 17) {
+  console.log("50 tk");
+} else if (myAge >= 18 && myAge <= 59) {
+  console.log("100 tk");
+} else if (myAge >= 60) {
+  console.log("70 tk");
+}else{
+    console.log("gura lagbe na bari jao");
 
-// }
+}
 
 // বড় সংখ্যা বের করা
 // দুটি ভেরিয়েবল a ও b আছে।
 // কোন সংখ্যা বড় সেটা আউটপুট দেখাও।
 // যদি সমান হয় "দুটি সংখ্যা সমান" লিখো।
 
-// let a = 80;
-// let b = 120;
+let a = 80;
+let b = 120;
 
-// if (a > b) {
-//   console.log("a = " + a);
-// } else if (b > a) {
-//   console.log("b = " + b);
-// } else {
-//   console.log("2 ta songkhai soman ");
-// }
+if (a > b) {
+  console.log("a = " + a);
+} else if (b > a) {
+  console.log("b = " + b);
+} else {
+  console.log("2 ta songkhai soman ");
+}
 
 // শিক্ষার্থী গ্রেড নির্ধারণ
 // একটি ভেরিয়েবল marks আছে (0–100)
@@ -117,40 +117,40 @@
 // 40–59: "D"
 // 0–39: "F"
 
-// let marks = 90;
+let marks = 90;
 
-// if (marks > 100 || marks < 0) {
-//   console.log("Please enter valid number");
-// } else if (marks >= 80 && marks <= 100) {
-//   console.log("Your gread =  A+");
-// } else if (marks >= 70 && marks <= 79) {
-//   console.log("Your gread =  A");
-// } else if (marks >= 60 && marks <= 69) {
-//   console.log("Your gread =  B");
-// } else if (marks >= 50 && marks <= 59) {
-//   console.log("Your gread =  C");
-// } else if (marks >= 33 && marks <= 49) {
-//   console.log("Your gread =  D");
-// } else if (marks >= 0 && marks <= 32) {
-//   console.log("OH NO You are Fail");
-// }
+if (marks > 100 || marks < 0) {
+  console.log("Please enter valid number");
+} else if (marks >= 80 && marks <= 100) {
+  console.log("Your gread =  A+");
+} else if (marks >= 70 && marks <= 79) {
+  console.log("Your gread =  A");
+} else if (marks >= 60 && marks <= 69) {
+  console.log("Your gread =  B");
+} else if (marks >= 50 && marks <= 59) {
+  console.log("Your gread =  C");
+} else if (marks >= 33 && marks <= 49) {
+  console.log("Your gread =  D");
+} else if (marks >= 0 && marks <= 32) {
+  console.log("OH NO You are Fail");
+}
 
 // ডেলিভারি চার্জ নির্ধারণ
 // ভেরিয়েবল amount (ক্রয়মূল্য) এবং isInsideDhaka (true/false) আছে।
 // যদি amount ≥ 1000, চার্জ হবে 0
 // নতুবা ঢাকার ভিতরে হলে 60, বাইরে হলে 120
 
-// let amount = 600;
-// let isInsideDhaka = true;
+let amount = 600;
+let isInsideDhaka = true;
 
-// if (amount >= 1000) {
-//   console.log("Congratulation! Your Delivary Charge is free");
-// } else if (isInsideDhaka) {
-//   console.log("Your Delibary Charge is = 60");
-// } else{
-//   console.log("Your Delibary Charge is = 120");
+if (amount >= 1000) {
+  console.log("Congratulation! Your Delivary Charge is free");
+} else if (isInsideDhaka) {
+  console.log("Your Delibary Charge is = 60");
+} else{
+  console.log("Your Delibary Charge is = 120");
 
-// }
+}
 
 // দিনের সময় অনুযায়ী শুভেচ্ছা
 // ভেরিয়েবল hour (0–23) আছে।
@@ -161,6 +161,8 @@
 // 21–23: "Good Night"
 
 let hour = 22;
+
+
 
 if (hour < 0 || hour > 23) {
   console.log("please enter 0-23");
