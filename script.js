@@ -140,15 +140,38 @@
 // যদি amount ≥ 1000, চার্জ হবে 0
 // নতুবা ঢাকার ভিতরে হলে 60, বাইরে হলে 120
 
-let amount = 600;
-let isInsideDhaka = true;
- 
+// let amount = 600;
+// let isInsideDhaka = true;
 
-if (amount >= 1000) {
-  console.log("Congratulation! Your Delivary Charge is free");
-} else if (isInsideDhaka) {
-  console.log("Your Delibary Charge is = 60");
-} else{
-  console.log("Your Delibary Charge is = 120");
-  
+// if (amount >= 1000) {
+//   console.log("Congratulation! Your Delivary Charge is free");
+// } else if (isInsideDhaka) {
+//   console.log("Your Delibary Charge is = 60");
+// } else{
+//   console.log("Your Delibary Charge is = 120");
+
+// }
+
+// দিনের সময় অনুযায়ী শুভেচ্ছা
+// ভেরিয়েবল hour (0–23) আছে।
+// 0–5: "Good Night"
+// 6–11: "Good Morning"
+// 12–16: "Good Afternoon"
+// 17–20: "Good Evening"
+// 21–23: "Good Night"
+
+let hour = 22;
+
+if (hour < 0 || hour > 23) {
+  console.log("please enter 0-23");
+} else if (hour >= 0 && hour <= 5) {
+  console.log("Good Night");
+} else if (hour >= 6 && hour <= 11) {
+  console.log("Good Morning");
+} else if (hour >= 12 && hour <= 16) {
+  console.log("Good Afternoon");
+} else if (hour >= 17 && hour <= 20) {
+  console.log("Good Evening");
+}else if (hour >= 21 && hour <= 23) {
+  console.log("Good Night");
 }
