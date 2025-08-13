@@ -39,19 +39,34 @@
 //   console.log("songkhati Bijor");
 // }
 
-
-
-
 // তাপমাত্রা পরীক্ষা
 // একটি ভেরিয়েবল temp আছে।
 // যদি তাপমাত্রা 30-এর বেশি হয়, আউটপুট "আজ গরম"
 // না হলে "আজ ঠান্ডা"
 
-let NowTemp = 20;
-const temp = 30;
+// let NowTemp = 20;
+// const temp = 30;
 
-if (NowTemp > temp) {
-  console.log("oh my god.ajke ato hot keno");
-} else {
-  console.log("oh no sei thanda");
+// if (NowTemp > temp) {
+//   console.log("oh my god.ajke ato hot keno");
+// } else {
+//   console.log("oh no sei thanda");
+// }
+
+// পজিটিভ / নেগেটিভ / শূন্য
+// একটি ভেরিয়েবল num আছে।
+// যদি শূন্যের বেশি হয়, "পজিটিভ"
+// যদি শূন্যের কম হয়, "নেগেটিভ"
+// যদি শূন্য হয়, "শূন্য"
+
+let num = 0;
+
+if (num > 0) {
+  console.log("positive");
+}else if(num<0){
+   console.log("Negitive");
+   
+}else if (num==0) {
+    console.log("ZERO");
+    
 }
