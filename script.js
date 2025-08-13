@@ -11,44 +11,47 @@
 //   console.log("apni akhono soto age boro hon 18 hoile vot diyen");
 // }
 
-
-
-
-
 // পাস বা ফেল
 // একটি ভেরিয়েবল marks আছে।
 // যদি নম্বর 40 বা তার বেশি হয়, আউটপুট "আপনি পাস করেছেন"
 // না হলে "আপনি ফেল করেছেন"
 
-let marks = 10;
-const passMark = 40;
+// let marks = 10;
+// const passMark = 40;
 
-if (marks >= passMark) {
-  console.log("Obinondhon apni pass koresen. Misty niye aisen");
-}else{
-    console.log("apni fail. adda bad diye kaj koren");
-    
-}
+// if (marks >= passMark) {
+//   console.log("Obinondhon apni pass koresen. Misty niye aisen");
+// }else{
+//     console.log("apni fail. adda bad diye kaj koren");
 
-
-
-
-
-
-
+// }
 
 // জোড় বা বিজোড় সংখ্যা
 // একটি ভেরিয়েবল number আছে।
 // যদি সংখ্যাটি জোড় হয়, আউটপুট "সংখ্যাটি জোড়"
 // না হলে "সংখ্যাটি বিজোড়"
 
+// let number = 10;
 
-let number = 1;
+// if (number % 2 == 0) {
+//   console.log("songkhati Even");
+// } else {
+//   console.log("songkhati Bijor");
+// }
 
-if (number%2==0) {
-    console.log("songkhati Even");
-    
-}else{
-    console.log("songkhati Bijor");
-    
+
+
+
+// তাপমাত্রা পরীক্ষা
+// একটি ভেরিয়েবল temp আছে।
+// যদি তাপমাত্রা 30-এর বেশি হয়, আউটপুট "আজ গরম"
+// না হলে "আজ ঠান্ডা"
+
+let NowTemp = 20;
+const temp = 30;
+
+if (NowTemp > temp) {
+  console.log("oh my god.ajke ato hot keno");
+} else {
+  console.log("oh no sei thanda");
 }
